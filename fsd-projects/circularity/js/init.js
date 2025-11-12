@@ -84,13 +84,13 @@ circles.push(circle);
 
 
             // TODO 8 / TODO 9 : Iterate over the array
-            for(ver i=0; i<circle.length; i++) {
-                physikz.updatePosition(circles[i])
-                game.checkCirclePosition(circles[i])
+            for (var i=0; i < circles.length; i++) {
+                physikz.updatePosition(circles[i]);
+                game.checkCirclePosition(circles[i]);
 
     
         
-    \
+            }}
         /* 
         This Function should check the position of a circle that is passed to the 
         Function. If that circle drifts off the screen, this Function should move
